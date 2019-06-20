@@ -1,6 +1,12 @@
 #!/usr/bin/env sh
 
 set -e
+
+git add .
+git commit -m 'deploy blog'
+git push --set-upstream origin master
+
+
 npm run build
 cd docs/.vuepress/dist
 git init

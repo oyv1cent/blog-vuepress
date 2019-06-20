@@ -1958,7 +1958,6 @@ ES5 的编码规范请查看[版本一](https://github.com/sivan/javascript-styl
 
 **[⬆ 返回目录](#table-of-contents)**
 
-<a name="resources"></a>
 ## 相关资源（英文）
 
 **了解 ES6**
