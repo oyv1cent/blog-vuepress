@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/oyv1cent/blog.git",
+  "author": "oyv1cent",
+  "scripts": {
+    "dev": "vuepress dev ./docs",
+    "build": "vuepress build ./docs",
+    "deploy": "sh build/first-deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
