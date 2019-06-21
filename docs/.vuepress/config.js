@@ -30,7 +30,10 @@ module.exports = {
           title: '博客',
           children: [
             '',
-            'vue-lifecycle'
+            'js模块化',
+            '大厂面试题',
+            '前端安全',
+            'vue-lifecycle',
           ]
         }
       ],
@@ -39,7 +42,9 @@ module.exports = {
           title: '收藏',
           children: [
             '',
-            'airbnb-style-guide'
+            'js继承',
+            'className规范',
+            'airbnb-style-guide',
           ]
         }
       ],
