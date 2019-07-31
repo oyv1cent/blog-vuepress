@@ -22,6 +22,10 @@ module.exports = {
       {
         text: '收藏',
         link: '/collect/'
+      },
+      {
+        text: 'React',
+        link: '/react/'
       }
     ],
     sidebar: {
@@ -45,6 +49,15 @@ module.exports = {
             'js继承',
             'className规范',
             'airbnb-style-guide',
+          ]
+        }
+      ],
+      '/react/': [
+        {
+          title: 'React',
+          children: [
+            '',
+            'setState',
           ]
         }
       ],
