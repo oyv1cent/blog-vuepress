@@ -20,8 +20,8 @@ module.exports = {
         link: '/blog/',
       },
       {
-        text: '收藏',
-        link: '/collect/'
+        text: '前端知识',
+        link: '/knowledge/'
       },
       {
         text: 'React',
@@ -38,17 +38,19 @@ module.exports = {
             '大厂面试题',
             '前端安全',
             'vue-lifecycle',
-          ]
-        }
-      ],
-      '/collect/': [
-        {
-          title: '收藏',
-          children: [
-            '',
             'js继承',
             'className规范',
             'airbnb-style-guide',
+          ]
+        }
+      ],
+      '/knowledge/': [
+        {
+          title: '前端知识',
+          children: [
+            '',
+            'React',
+            'Css',
           ]
         }
       ],

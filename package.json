@@ -6,8 +6,7 @@
   "author": "oyv1cent",
   "scripts": {
     "dev": "vuepress dev ./docs",
-    "build": "vuepress build ./docs",
-    "deploy": "sh build/first-deploy.sh"
+    "build": "vuepress build ./docs"
   },
   "license": "MIT",
   "devDependencies": {
